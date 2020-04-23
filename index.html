@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title> JAVA WEB </title>
+	</head>
+
+	<!--
+		<body>
+			<h1>Hello World!</h1>
+			<c:if test="${not empty param.name}">
+			<p>Name: ${param.name}</p>
+			</c:if>
+		</body>
+	-->
+
+	<body>
+		<fieldset>
+			<legend>Calculo de consumo de combustivel</legend>
+			<form method="post" action="calc">
+				<label> Marca: </label>  <br/>
+				<input type="text" name="marca" /> <br/> <br/>
+
+				<label> Modelo: </label> <br/>
+				<input type="text" name="modelo" /> <br/> <br/>
+
+				<label> Capacidade do Tanque: </label> <br/>
+				<input type="text" name="capacidade" /> <br/> <br/>
+
+				<label> Distância percorrida: </label> <br/>
+				<input type="text" name="distancia" /> <br/> <br/>
+
+				<label> Consumo Médio: </label> <br/>
+				<input type="text" name="consumo" /> <br/> <br/>
+
+				<label>Submit</label> <input type="submit" value="submit" />
+			</form>
+		</fieldset>
+	</body>
+</html>
